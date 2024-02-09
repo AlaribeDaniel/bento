@@ -1,0 +1,11 @@
+.arrow_container{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    border: 2px green;
+    background-color: #E63E21;
+
+    display: grid;
+    place-content: center;
+    transform: rotate(45deg);
+}

@@ -1,0 +1,57 @@
+@import '../style/abstract/mixin';
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 'navbar navbar navbar' 'hero hero hero' 'work product product' 'work user nocode' 'work music music' 'ios music music' 'ios map map' 'footer footer footer';
+    gap: 20px;
+}
+
+.grid-item1{
+    grid-area: navbar;
+}
+
+.grid-item2{
+    grid-area: hero;
+}
+
+.grid-item3{
+    grid-area: work;
+}
+
+.grid-item4{
+    grid-area: product;
+}
+
+.grid-item5{
+    grid-area: user;
+}
+
+.grid-item6{
+    grid-area: nocode;
+}
+
+.grid-item7{
+    grid-area: music;
+    width: 100%;
+}
+
+.grid-item8{
+    grid-area: map;
+    width: 100%;
+    // transform: translateY(-65px);
+}
+
+.grid-item9{
+    grid-area: ios;
+}
+
+.grid-item10{
+    grid-area: footer;
+}
+
+@include respond-tablet{
+    .grid-container{
+        grid-template-areas: 'navbar navbar' 'hero hero' 'work work' 'product product' 'user nocode' 'music music' 'map map' 'ios ios' 'footer footer';
+    }
+}
+

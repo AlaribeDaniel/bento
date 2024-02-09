@@ -1,0 +1,22 @@
+.skill{
+    display: grid;
+    width: 100%;
+}
+
+.skill-set{
+    display: grid;
+    place-content: center;
+    flex-grow: 1;
+    height: 149px;
+    border-radius: 14px;
+    // border-color: #E63E21;
+    background-image: linear-gradient(235deg, #E63E21 0%, rgba(230, 62, 33, 0) 18%),
+    linear-gradient(0deg, #262626, #262626);
+    font-size: 13px;
+    background-color: #1B1B1B;
+    padding: 60px 40px;
+    // background-image: linear-gradient(45deg, #1B1B1B, #262626,#E63E21 100%,  #E63E21 0%, #E63E21 20%, #33130E 0%);
+    outline: 2px solid #262626;
+    text-align: center;
+    
+}
